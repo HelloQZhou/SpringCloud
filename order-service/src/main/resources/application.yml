@@ -21,7 +21,7 @@ mybatis:
     map-underscore-to-camel-case: true
 logging:
   level:
-    cn.itcast: debug
+    con.qzhou: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 #eureka:
