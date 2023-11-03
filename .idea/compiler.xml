@@ -6,23 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
         <module name="publisher" />
         <module name="order-service" />
         <module name="user-service" />
-        <module name="eureka" />
         <module name="gateway" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
+      <module name="es" options="" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="publisher" options="-parameters" />
-      <module name="rabiitmq" options="" />
+      <module name="rabbitmq" options="" />
+      <module name="untitled" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

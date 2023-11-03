@@ -4,44 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7acc43e2-2c46-4cf7-9fa0-2a43b27114da" name="变更" comment="RabbitMQ">
-      <change afterPath="$PROJECT_DIR$/rabiitmq/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/listen/SpringRabbitMQListen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/consumer/src/test/java/com/qzhou/mq/helloworld/ConsumerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/publisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/publisher/src/main/java/com/qzhou/mq/PublisherApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/publisher/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/AMQPPublisherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/PublisherTest.java" afterDir="false" />
+    <list default="true" id="7acc43e2-2c46-4cf7-9fa0-2a43b27114da" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/HotelDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/constants/HotelConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/mapper/HotelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/HotelDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/IHotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/impl/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/css/banner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/ad2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/heima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/amap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/DirectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/FanoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/QueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/TopicConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/itcast/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/qzhou/EurekaServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/target/classes/com/itcast/EurekaServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/qzhou/gateway/AuthorizeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/com/qzhou/gateway/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/feignLogger/DefaultFeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/feignLogger/DefaultFeignConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/mapper/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/web/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/qzhou/order/web/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/AuthorizeFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/feignLogger/DefaultFeignConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/config/PatternProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/config/PatternProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/qzhou/user/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/listen/SpringRabbitMQListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/listen/SpringRabbitMQListen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/test/java/com/qzhou/mq/helloworld/ConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/test/java/com/qzhou/mq/helloworld/ConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/main/java/com/qzhou/mq/PublisherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/main/java/com/qzhou/mq/PublisherApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/AMQPPublisherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/test/java/com/qzhou/mq/helloworld/AMQPPublisherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/PublisherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/test/java/com/qzhou/mq/helloworld/PublisherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/config/PatternProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +73,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +94,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2WQsGo6GL5fFY147mGywG7UWawd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -87,12 +111,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Code_program/springcloud/rabiitmq",
-    "project.structure.last.edited": "项目",
+    "last_opened_file_path": "D:/Code_program/springcloud/es",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.35664335",
     "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "f0bb77eb3cf778f3cffbf5ba7bb4e062"
+    "spring.configuration.checksum": "a8acd0d6327a8a2cf6f434123bce4017"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -100,6 +124,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code_program\springcloud\es" />
       <recent name="D:\Code_program\springcloud\rabiitmq" />
     </key>
   </component>
@@ -110,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PublisherTest.testSendMessage">
+  <component name="RunManager" selected="JUnit.HotelDemoApplicationTests.createIndex">
     <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.ConsumerTest" />
       <module name="consumer" />
@@ -124,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PublisherTest.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AMQPPublisherTest.testSendMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="publisher" />
       <extension name="coverage">
         <pattern>
@@ -133,19 +158,51 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qzhou.mq.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.PublisherTest" />
-      <option name="METHOD_NAME" value="testSendMessage" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.AMQPPublisherTest" />
+      <option name="METHOD_NAME" value="testSendMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.EurekaServer" />
+    <configuration name="AMQPPublisherTest.testSimpleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="publisher" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qzhou.*" />
+          <option name="PATTERN" value="com.qzhou.mq.helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.mq.helloworld" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.AMQPPublisherTest" />
+      <option name="METHOD_NAME" value="testSimpleQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelDemoApplicationTests.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzhou.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelDemoApplicationTests" />
+      <option name="METHOD_NAME" value="createIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.mq.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzhou.mq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,15 +210,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.qzhou.gateway.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.qzhou.gateway.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="HotelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="es" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.hotel.HotelDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,6 +220,13 @@
     <configuration name="OrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="con.qzhou.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.order.OrderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,6 +241,13 @@
     <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="con.qzhou.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.user.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,23 +279,28 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PublisherTest.testSendMessage" />
+      <item itemvalue="JUnit.AMQPPublisherTest.testSendMap" />
+      <item itemvalue="JUnit.AMQPPublisherTest.testSimpleQueue" />
+      <item itemvalue="JUnit.HotelDemoApplicationTests.createIndex" />
+      <item itemvalue="Spring Boot.HotelDemoApplication" />
+      <item itemvalue="Spring Boot.OrderApplication (2)" />
+      <item itemvalue="Spring Boot.UserApplication (2)" />
       <item itemvalue="Spring Boot.OrderApplication (1)" />
       <item itemvalue="Spring Boot.UserApplication (1)" />
       <item itemvalue="Spring Boot.UserApplication2" />
       <item itemvalue="Spring Boot.UserApplication3" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.EurekaServer" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="应用程序.ConsumerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PublisherTest.testSendMessage" />
+        <item itemvalue="JUnit.HotelDemoApplicationTests.createIndex" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="JUnit.AMQPPublisherTest.testSendMap" />
+        <item itemvalue="JUnit.AMQPPublisherTest.testSimpleQueue" />
         <item itemvalue="应用程序.ConsumerTest" />
-        <item itemvalue="Spring Boot.EurekaServer" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +316,8 @@
       <workItem from="1696771046351" duration="619000" />
       <workItem from="1696816816614" duration="13101000" />
       <workItem from="1698887920572" duration="748000" />
-      <workItem from="1698888729152" duration="16139000" />
+      <workItem from="1698888729152" duration="16290000" />
+      <workItem from="1698974885734" duration="15945000" />
     </task>
     <task id="LOCAL-00001" summary="eureka">
       <created>1698889263498</created>
@@ -262,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698889408687</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="RabbitMQ">
+      <created>1698933834972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698933834972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
