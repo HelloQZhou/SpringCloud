@@ -1,7 +1,9 @@
 package com.qzhou.hotel.constants;
 
 public class HotelConstants {
-    public static String MAPPING_TEMPLATE="\"mappings\": {\n" +
+
+    public static String MAPPING_TEMPLATE = "{\n" +
+            "  \"mappings\": {\n" +
             "    \"properties\": {\n" +
             "      \"id\": {\n" +
             "        \"type\": \"keyword\"\n" +
@@ -47,5 +49,6 @@ public class HotelConstants {
             "        \"analyzer\": \"ik_max_word\"\n" +
             "      }\n" +
             "    }\n" +
-            "  }";
+            "  }\n" +
+            "}";
 }

@@ -5,65 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7acc43e2-2c46-4cf7-9fa0-2a43b27114da" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/es/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/HotelDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/constants/HotelConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/mapper/HotelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/HotelDoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/IHotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/impl/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/css/banner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/ad2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/img/heima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/amap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/resources/static/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/DirectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/FanoutConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/QueueConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/config/TopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/search.dsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelDemo2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelSearchApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/AuthorizeFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/cn/itcast/gateway/GatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/client/UserClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/feignLogger/DefaultFeignConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/mapper/OrderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/web/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/java/com/qzhou/mq/listen/SpringRabbitMQListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/java/com/qzhou/mq/listen/SpringRabbitMQListen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/consumer/src/test/java/com/qzhou/mq/helloworld/ConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/consumer/src/test/java/com/qzhou/mq/helloworld/ConsumerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/main/java/com/qzhou/mq/PublisherApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/main/java/com/qzhou/mq/PublisherApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/AMQPPublisherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/test/java/com/qzhou/mq/helloworld/AMQPPublisherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabiitmq/publisher/src/test/java/com/qzhou/mq/helloworld/PublisherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/publisher/src/test/java/com/qzhou/mq/helloworld/PublisherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/UserApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/config/PatternProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/es/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/constants/HotelConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/constants/HotelConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/HotelDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/HotelDoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +67,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.35664335",
     "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "a8acd0d6327a8a2cf6f434123bce4017"
+    "spring.configuration.checksum": "08d29c295061fc62e534abfdf3c03c3f"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -127,6 +78,9 @@
       <recent name="D:\Code_program\springcloud\es" />
       <recent name="D:\Code_program\springcloud\rabiitmq" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qzhou.hotel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -135,53 +89,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelDemoApplicationTests.createIndex">
-    <configuration name="ConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.ConsumerTest" />
-      <module name="consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qzhou.mq.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AMQPPublisherTest.testSendMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="publisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qzhou.mq.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qzhou.mq.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.AMQPPublisherTest" />
-      <option name="METHOD_NAME" value="testSendMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AMQPPublisherTest.testSimpleQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="publisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qzhou.mq.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qzhou.mq.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.qzhou.mq.helloworld.AMQPPublisherTest" />
-      <option name="METHOD_NAME" value="testSimpleQueue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HotelDemoApplicationTests.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HotelSearchApplicationTests.testSearchBoll">
+    <configuration name="HotelSearchApplicationTests.testSearchBoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="es" />
       <extension name="coverage">
         <pattern>
@@ -190,22 +99,73 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
-      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelDemoApplicationTests" />
-      <option name="METHOD_NAME" value="createIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
+      <option name="METHOD_NAME" value="testSearchBoll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qzhou.mq.ConsumerApplication" />
+    <configuration name="HotelSearchApplicationTests.testSearchMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qzhou.mq.*" />
+          <option name="PATTERN" value="com.qzhou.hotel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
+      <option name="METHOD_NAME" value="testSearchMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelSearchApplicationTests.testSearchRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzhou.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
+      <option name="METHOD_NAME" value="testSearchRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelSearchApplicationTests.testSearchTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzhou.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
+      <option name="METHOD_NAME" value="testSearchTerm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelSearchApplicationTests.testSearchTermAndRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qzhou.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
+      <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
+      <option name="METHOD_NAME" value="testSearchTermAndRange" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,9 +239,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AMQPPublisherTest.testSendMap" />
-      <item itemvalue="JUnit.AMQPPublisherTest.testSimpleQueue" />
-      <item itemvalue="JUnit.HotelDemoApplicationTests.createIndex" />
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBoll" />
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchMatch" />
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchRange" />
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchTerm" />
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchTermAndRange" />
       <item itemvalue="Spring Boot.HotelDemoApplication" />
       <item itemvalue="Spring Boot.OrderApplication (2)" />
       <item itemvalue="Spring Boot.UserApplication (2)" />
@@ -291,16 +253,14 @@
       <item itemvalue="Spring Boot.UserApplication3" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="应用程序.ConsumerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HotelDemoApplicationTests.createIndex" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
-        <item itemvalue="JUnit.AMQPPublisherTest.testSendMap" />
-        <item itemvalue="JUnit.AMQPPublisherTest.testSimpleQueue" />
-        <item itemvalue="应用程序.ConsumerTest" />
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBoll" />
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchTerm" />
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchRange" />
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchTermAndRange" />
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +277,8 @@
       <workItem from="1696816816614" duration="13101000" />
       <workItem from="1698887920572" duration="748000" />
       <workItem from="1698888729152" duration="16290000" />
-      <workItem from="1698974885734" duration="15945000" />
+      <workItem from="1698974885734" duration="16736000" />
+      <workItem from="1699060433034" duration="16623000" />
     </task>
     <task id="LOCAL-00001" summary="eureka">
       <created>1698889263498</created>
@@ -340,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698933834972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RabbitMQ AMQP ESCline">
+      <created>1699020253447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699020253447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +318,8 @@
     <MESSAGE value="eureka" />
     <MESSAGE value="eureka geteway mq" />
     <MESSAGE value="RabbitMQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ" />
+    <MESSAGE value="RabbitMQ AMQP ESCline" />
+    <option name="LAST_COMMIT_MESSAGE" value="RabbitMQ AMQP ESCline" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -5,13 +5,14 @@ spring:
     url: jdbc:mysql://localhost:3306/qzhou_hotel?useSSL=false
     username: root
     password: zhouq
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
 
 logging:
-  level:
-    cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+  level:
+    com.qzhou: debug
+
 mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
