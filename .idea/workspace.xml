@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7acc43e2-2c46-4cf7-9fa0-2a43b27114da" name="变更" comment="DSL RestCline &#10;SearchDSL RestClineDsl">
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/controller/HotelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/pojo/RequestParams.java" afterDir="false" />
+    <list default="true" id="7acc43e2-2c46-4cf7-9fa0-2a43b27114da" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/es/analyzer.dsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/HotelDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/HotelDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/search.dsl" beforeDir="false" afterPath="$PROJECT_DIR$/es/search.dsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/controller/HotelController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/IHotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/IHotelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/impl/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/impl/HotelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelSearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/es/src/test/java/com/qzhou/hotel/HotelSearchApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,30 +52,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code_program/springcloud/es&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35664335&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;08d29c295061fc62e534abfdf3c03c3f&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Code_program/springcloud/es/src/main/resources/static",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.35664335",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "08d29c295061fc62e534abfdf3c03c3f",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code_program\springcloud\es\src\main\resources\static" />
       <recent name="D:\Code_program\springcloud\es" />
       <recent name="D:\Code_program\springcloud\rabiitmq" />
     </key>
@@ -90,8 +92,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HotelSearchApplicationTests.testSearchSort">
-    <configuration name="HotelSearchApplicationTests.testSearchBoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.HotelDemoApplication">
+    <configuration name="HotelSearchApplicationTests.testSearchBuckets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="es" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qzhou.hotel" />
       <option name="MAIN_CLASS_NAME" value="com.qzhou.hotel.HotelSearchApplicationTests" />
-      <option name="METHOD_NAME" value="testSearchBoll" />
+      <option name="METHOD_NAME" value="testSearchBuckets" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,10 +242,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBuckets" />
       <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchSort" />
       <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchHighLight" />
       <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchPageAndSort" />
-      <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBoll" />
       <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchMatch" />
       <item itemvalue="Spring Boot.HotelDemoApplication" />
       <item itemvalue="Spring Boot.OrderApplication (2)" />
@@ -257,11 +259,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBuckets" />
         <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchSort" />
         <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchMatch" />
         <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchHighLight" />
         <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchPageAndSort" />
-        <item itemvalue="JUnit.HotelSearchApplicationTests.testSearchBoll" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +285,7 @@
       <workItem from="1699106940686" duration="189000" />
       <workItem from="1699107904874" duration="1514000" />
       <workItem from="1699146785908" duration="10948000" />
-      <workItem from="1699158078097" duration="8550000" />
+      <workItem from="1699158078097" duration="22259000" />
     </task>
     <task id="LOCAL-00001" summary="eureka">
       <created>1698889263498</created>
@@ -320,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699106646154</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="黑马旅游 聚合DSL">
+      <created>1699198974280</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699198974280</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +344,19 @@
     <MESSAGE value="RabbitMQ" />
     <MESSAGE value="RabbitMQ AMQP ESCline" />
     <MESSAGE value="DSL RestCline &#10;SearchDSL RestClineDsl" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSL RestCline &#10;SearchDSL RestClineDsl" />
+    <MESSAGE value="黑马旅游 聚合DSL" />
+    <option name="LAST_COMMIT_MESSAGE" value="黑马旅游 聚合DSL" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/es/src/main/java/com/qzhou/hotel/service/impl/HotelService.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,9 @@ import org.elasticsearch.index.query.RangeQueryBuilder;
 import org.elasticsearch.index.query.TermQueryBuilder;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.Aggregations;
+import org.elasticsearch.search.aggregations.bucket.terms.Terms;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.search.sort.SortBuilders;
@@ -29,6 +32,7 @@ import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -180,6 +184,32 @@ class HotelSearchApplicationTests {
         handleResponse(response);
     }
 
+    @Test
+        // DSL语句 聚合语法   转为Java语句实现
+    void testSearchBuckets() throws IOException {
+
+        SearchRequest request=new SearchRequest("hotel");
+
+        request.source()
+                .size(0)
+                .aggregation(AggregationBuilders
+                        .terms("brandAgg")
+                        .field("brand")
+                        .size(10)
+                );
+
+        SearchResponse response = client.search(request, RequestOptions.DEFAULT);
+
+        //解析响应
+        Aggregations aggregations = response.getAggregations();
+        //注意 此时不能使用 .var 生成
+        Terms terms=aggregations.get("brandAgg");
+
+        List<? extends Terms.Bucket> buckets = terms.getBuckets();
+        for (Terms.Bucket bucket : buckets) {
+            System.out.println(bucket.getKeyAsString());
+        }
+    }
 
 
     //抽取的公共部分 -> 解析响应
@@ -218,6 +248,9 @@ class HotelSearchApplicationTests {
     }
 
 
+
+
+
     @BeforeEach
     void init() {
         this.client = new RestHighLevelClient(RestClient.builder(
@@ -230,3 +263,5 @@ class HotelSearchApplicationTests {
         this.client.close();
     }
 }
+
+

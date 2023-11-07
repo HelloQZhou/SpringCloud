@@ -22,6 +22,7 @@ import org.springframework.util.StringUtils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 
 @Service
@@ -61,6 +62,11 @@ public class HotelService extends ServiceImpl<HotelMapper, Hotel> implements IHo
         }
 
 
+    }
+
+    @Override
+    public Map<String, List<String>> filters(RequestParams dto) {
+        return null;
     }
 
     private PageResult handleResponse(SearchResponse response) {
